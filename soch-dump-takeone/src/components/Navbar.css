@@ -38,6 +38,33 @@ nav {
   transition: 0.3s ease-in-out;
 }
 
+.log{
+  position: relative;
+  width: 50px;
+  border: 1px solid black;
+  padding: 9px 20px;
+  margin: 20px;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  font-size: 1.1rem;
+  border-radius: 5px;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+  font-weight: 900;
+}
+
+.log:hover{
+  background-color: rgba(255, 143, 40, 1) ;
+  color:white;
+  font-weight: 900;
+  font-weight:bolder;
+  border: 1px solid white;
+  
+}
+
 #navbar li a:hover,
 #navbar li a.active {
     /* color: linear-gradient(#f3ec78, #af4261); */
@@ -80,6 +107,7 @@ nav {
     /* background: rgb(255, 225, 143); */
     padding: 40px 0 0 10px;
     transition: 0.3s ease-in-out;
+    
   }
 
   #navbar.active {

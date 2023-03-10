@@ -36,17 +36,23 @@ function Greeting() {
 
 
     return(
-    <div className="greeting">
+      <>
+      <div className="greeting">
         <a className="dp" href="index.html">
             {/* <img src="./images/lgo.svg" />x */}
           </a>
           <h1 className="greet">{greeting}</h1>
           <a>
             <img className="weather" src={imageURL}/>
-          </a>
-          
+          </a>  
+    </div>
+    <div className="pick" >
+      <h2>Pick Story</h2>
     </div>
 
+      </>
+    
+     
 
     )
 }
