@@ -24,7 +24,7 @@
 }
 
 .weather {
-    float: right;
+    /* float: right; */
     margin-right: -40vh;
     width: 90px;
     height: 90px;
@@ -32,7 +32,14 @@
     display: flex;
     position:relative ;
     left: 80px;
-    justify-content: right;
-    align-items: right;
+    /* justify-content: right;
+    align-items: right; */
     
+}
+
+.pick{
+    margin-top: 7vh;
+    margin-left: 3vh;
+    font-size: large;
+    color: rgb(255, 156, 7);
 }
