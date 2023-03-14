@@ -1,0 +1,47 @@
+.button{
+    margin: 6px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.primaryBtn{
+    
+    padding: 11px 22px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.secondaryBtn{
+    padding: 11px 22px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.tertiaryBtn{
+    padding: 11px 22px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.primaryBtn:hover{
+    background-color: aliceblue;
+}
+
+.secondaryBtn:hover{
+    background-color:aliceblue;
+}
+
+.tertiaryBtn:hover{
+    background-color: aliceblue;
+}
