@@ -81,7 +81,7 @@ input {
   padding: 1rem;
   padding-right: 20vh;
   border: none;
-  border-radius: 10px;
+  border-radius: 30px;
   /* margin-right: 10vh; */
 }
 
@@ -103,10 +103,9 @@ button {
     padding:3vh ;
     font-size: 20px;
     font-weight: 600;
-    border-radius: 5px;
+    border-radius: 40px;
     cursor: pointer;
 }
-
 
 .link-but:hover{
   background-color: rgb(101, 137, 237);
@@ -119,6 +118,36 @@ background-color:rgb(171, 227, 171);
 
 }
 
+.link-gog {
+  text-decoration: none;
+  margin-top: 2vh;
+  color: black;
+  font-size: large;
+  padding: 2vh;
+  font-size: 20px;
+  font-weight: 600;
+  border-radius: 40px;
+  cursor: pointer;
+  background-color: white;
+  padding: 11px 22px;
+  letter-spacing: 0.8px;
+  /* border: 1px solid rgb(0, 0, 0); */
+  display:flex;
+  justify-content: space-evenly;
+}
+
+.link-gog:hover{
+background-color: rgb(197, 197, 197);
+color: white;
+}
+
+.link-gog:active {
+
+  background-color:rgb(171, 227, 171);
+  
+  }
+
+
 .login-link {
   background: none;
   color: purple;
@@ -126,3 +155,15 @@ background-color:rgb(171, 227, 171);
   font-weight: 600;
   
 }
+
+.or-class{
+  display: flex;
+  justify-content: space-around;
+  font-size: 15px;
+
+}
+.or{
+  font-size: large;
+  font-size: 20px;
+}
+
