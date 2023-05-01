@@ -1,6 +1,7 @@
 import { Component } from "react"
 import { Link } from "react-router-dom"
 import "./About.css"
+// import image23 from ".image23.png"
 
 class About extends Component {
   state = { clicked: false };
@@ -58,6 +59,18 @@ class About extends Component {
             <p>
               ABOUT AIISH
             </p>
+          </div>
+
+          <div className="cont" >
+            <p>
+            The All India Institute of Speech and Hearing popularly known as AIISH is a pioneer national organization advancing the causes of human resource development, research, clinical care and public education on communication disorders. The institute was established in the year 1966 as an autonomous institute fully funded by the Ministry of Health and Family Welfare, Government of India.
+            Situated in a lush green campus of 32 acres adjacent to the University of Mysore in Manasagangothri, Mysore, it is a unique institute in the Asian sub-continent which houses eleven departments having state-of-the-art facilities to offer inter-disciplinary research and training to the students, Ladies hostel, Administrative, Academic, Clinical buildings and the Knowledge park along with a well equipped Library and Information Centre. There are two additional campuses one is named as Panchvati and the other newly endowed campus is at Varuna, Mysuru.
+            </p>
+          </div>
+
+          {/* <img src="../images/image23.png" alt="AIISH"/> */}
+          <div className="img" >
+
           </div>
 
           {/* <Link className="ist" to="/about">

@@ -51,11 +51,6 @@ function Greeting() {
       <h2>Pick Story</h2>
     </div>
 
-    {/* <div className="talk" >
-      <button>
-        Try your Story
-      </button>
-    </div> */}
 
       </>
     
