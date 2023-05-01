@@ -5,7 +5,7 @@
     width: 350px;
     position: relative;
     text-align: center ;
-    align-items: end;
+    align-items: flex-end;
     
     /* flex: 1; */
     overflow: hidden;

@@ -43,3 +43,18 @@
     font-size: large;
     color: rgb(255, 156, 7);
 }
+
+.talk{
+    margin: 20px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap-reverse;
+    padding: 2px 22px;
+    border-radius: 30px;
+    color: rgb(0, 0, 0);
+    font-weight: 500;
+    letter-spacing: 0.8px;
+    border: 2px solid rgb(0, 0, 0);
+}
