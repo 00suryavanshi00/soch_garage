@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "./Greeting.css";
 
 function Greeting() {
@@ -38,9 +39,9 @@ function Greeting() {
     return(
       <>
       <div className="greeting">
-        <a className="dp" href="index.html">
+        <Link className="dp" href="index.html">
             {/* <img src="./images/lgo.svg" />x */}
-          </a>
+          </Link>
           <h1 className="greet">{greeting}</h1>
           <a>
             <img className="weather" src={imageURL}/>
@@ -49,6 +50,12 @@ function Greeting() {
     <div className="pick" >
       <h2>Pick Story</h2>
     </div>
+
+    {/* <div className="talk" >
+      <button>
+        Try your Story
+      </button>
+    </div> */}
 
       </>
     
