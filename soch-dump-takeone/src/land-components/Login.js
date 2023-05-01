@@ -39,7 +39,7 @@ export const Login = (props) => {
                 <input value={pass} onChange={(e) => setPass(e.target.value)}type="password" placeholder="Password" id="password" name="password"/>
 
                 <label>
-                    <input type="checkbox"  />
+                    <input className="checkbx" type="checkbox"  />
                        Remember Me
                 </label>
 

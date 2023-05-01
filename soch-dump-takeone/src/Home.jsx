@@ -7,27 +7,29 @@ import trialcard from './components/trialcard';
 
 
 
-function Home() {
+function Home(props) {
+
+
   return (
     <div className="Home">
       <Navbar />
       <Greeting/>
       <div className='e-card-horizontal'>
         <Card
-          name = {trialcard[0].name}
-          img = {trialcard[0].img}
+          storyname={props.name} 
+          description={props.description}
         />
         <Card
-          name = {trialcard[1].name}
-          img = {trialcard[1].img}
+          storyname={props.name} 
+          description={props.description}
         />
         <Card
-          name = {trialcard[2].name}
-          img = {trialcard[2].img}
+          storyname={props.name} 
+          description={props.description}
         />
         <Card
-          name = {trialcard[3].name}
-          img = {trialcard[3].img}
+          storyname={props.name} 
+          description={props.description}
         />
         
 
