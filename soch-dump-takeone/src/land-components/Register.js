@@ -1,6 +1,6 @@
 import React,{useState, useEffect} from "react"
 import {Link} from "react-router-dom"
-import PhoneInput, {isValidPhoneNumber} from "react-phone-number-input";
+// import PhoneInput, {isValidPhoneNumber} from "react-phone-number-input";
 import './Register.css';
 
 
